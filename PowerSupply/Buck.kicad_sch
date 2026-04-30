@@ -1,0 +1,9771 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a6c55f5d-3349-4d82-a852-c767295d21be")
+	(paper "A4")
+	(lib_symbols
+		(symbol "C_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_1_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_2_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_2_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_3_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_3_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_4_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_4_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C_5"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_5_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_5_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C_6"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_6_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_6_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:2N7002"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2N7002"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_2N7002-7002_C8545.html"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C8545"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2N7002_0_1"
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 7.62 -3.81) (xy 7.62 -2.54) (xy 10.16 -2.54) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 7.62 -6.35) (xy 7.62 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 7.62 -5.08) (xy 7.62 -7.62) (xy 10.16 -7.62) (xy 10.16 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -6.35) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 5.08 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 10.16 -6.35) (xy 11.43 -6.35) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -5.08) (xy 11.43 -5.08) (xy 10.16 -5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -10.16 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:TPS54560DDAR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS54560DDAR"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP2.0"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_TI_TPS54560DDAR_TPS54560DDAR_C31966.html"
+				(at 0 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C31966"
+				(at 0 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS54560DDAR_0_1"
+				(rectangle
+					(start 5.08 0)
+					(end 25.4 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "RT/CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 30.48 -10.16 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -15.24 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:WSP6047"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WSP6047"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:SO-8_L4.9-W3.9-P1.27-LS5.9-BL"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Winsok-Semicon-WSP6047_C719114.html"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C719114"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WSP6047_0_1"
+				(rectangle
+					(start 2.54 0)
+					(end 12.7 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 3.81 -1.27)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_1_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 63.5 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d49bd18-b59c-4d81-a43b-5224bc5ca0ec")
+	)
+	(junction
+		(at 115.57 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b178162-b02c-47d4-8e40-186645b84ea9")
+	)
+	(junction
+		(at 104.14 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24093a22-77ff-49e0-a1b2-3d9929614030")
+	)
+	(junction
+		(at 104.14 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25c04e0f-a4e6-42a7-890e-d5f4ab83583e")
+	)
+	(junction
+		(at 181.61 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "338c119c-23ba-4093-bc28-f2a795b3e987")
+	)
+	(junction
+		(at 163.83 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36ffd8e9-f98a-47bf-a09b-3017fb727f06")
+	)
+	(junction
+		(at 264.16 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3731a10e-0fb1-44ce-a0e3-598e277f27da")
+	)
+	(junction
+		(at 153.67 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d891562-f199-4212-9801-9c0858a4a3e6")
+	)
+	(junction
+		(at 161.29 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40b010ac-8979-4f03-a5e3-c554a1c11d09")
+	)
+	(junction
+		(at 69.85 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "418abc80-aca9-4d47-a309-4b8368170fe7")
+	)
+	(junction
+		(at 135.89 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49119695-d9e8-4116-8a0e-688a24991467")
+	)
+	(junction
+		(at 156.21 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c90e1e0-dd1b-4f86-8f2f-6a6ea010c736")
+	)
+	(junction
+		(at 63.5 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f69f97c-02b7-40cb-b80c-2886186abeb5")
+	)
+	(junction
+		(at 252.73 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c799a9e-148c-48fc-8e7f-e8aa55c1af71")
+	)
+	(junction
+		(at 125.73 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e7bc024-908b-4989-af43-b57a1b9b095b")
+	)
+	(junction
+		(at 127 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ad9abed-5e70-44f3-a6c9-82f563028dec")
+	)
+	(junction
+		(at 241.3 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "742932b0-dfd7-4918-a953-5187dc47a072")
+	)
+	(junction
+		(at 163.83 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79b7a3c0-9197-4a57-8c2d-673922b6a569")
+	)
+	(junction
+		(at 36.83 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "802bd9d5-7aeb-4674-9d8c-a72178608ed4")
+	)
+	(junction
+		(at 46.99 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "806a0230-b382-4d03-b556-888f239f9d52")
+	)
+	(junction
+		(at 219.71 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82485156-ff29-4fbe-ac67-17cc1a5c8bdd")
+	)
+	(junction
+		(at 74.93 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "827efa41-ca03-46e8-b59a-7df548533b56")
+	)
+	(junction
+		(at 63.5 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84981424-7e7a-4ea4-9226-e88bf9224f12")
+	)
+	(junction
+		(at 72.39 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85c64f4e-0b06-420f-9da3-71f631839a08")
+	)
+	(junction
+		(at 74.93 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "868fe0d3-ea2b-4fdc-b79b-0f02adcfb937")
+	)
+	(junction
+		(at 115.57 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c2540a7-baea-400a-8a2c-fc5d79284f0c")
+	)
+	(junction
+		(at 158.75 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "941cecd0-fc64-4d59-b366-41f2b0180dbb")
+	)
+	(junction
+		(at 74.93 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "987495b9-ae7d-49b9-b540-6fec898adf23")
+	)
+	(junction
+		(at 201.93 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ddf2d62-4cbc-4e7c-88d8-61502f5ab27a")
+	)
+	(junction
+		(at 21.59 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b43180ee-e766-451a-8584-77a906f85dea")
+	)
+	(junction
+		(at 181.61 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5dce51c-9889-4ad6-80de-6e578fdab659")
+	)
+	(junction
+		(at 252.73 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6b66425-73b2-4f92-b1fe-90035ddeb40a")
+	)
+	(junction
+		(at 219.71 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8a487eb-4354-41b2-9c7f-cc3937a94b80")
+	)
+	(junction
+		(at 191.77 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb577b75-d553-4b37-a404-ac2dbe55bc68")
+	)
+	(junction
+		(at 152.4 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd4c593e-e06b-4d4b-8707-204f88e3684d")
+	)
+	(junction
+		(at 110.49 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c16666bb-b52c-4863-b3ae-c09eaa0dabfa")
+	)
+	(junction
+		(at 229.87 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5e4e444-c261-43e0-a6d9-cfa7a1045b57")
+	)
+	(junction
+		(at 86.36 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6b727b7-c53a-4a29-b781-28dea6522fc7")
+	)
+	(junction
+		(at 64.77 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8446ab6-583e-4b56-a03f-36583124f32e")
+	)
+	(junction
+		(at 241.3 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cae19925-cfa7-48c2-98e7-b7a3cc957416")
+	)
+	(junction
+		(at 67.31 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccb2fb8f-5b77-4921-a980-6e79521b128c")
+	)
+	(junction
+		(at 201.93 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce009d4f-708c-45a4-8fcf-27267fd6d720")
+	)
+	(junction
+		(at 127 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d16211c6-04a9-4bd4-95b7-67d7e552d34d")
+	)
+	(junction
+		(at 201.93 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4f09208-661d-4659-965c-6c0170949d91")
+	)
+	(junction
+		(at 135.89 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d81fef8e-3e64-4446-accc-9cb3e76a9b79")
+	)
+	(junction
+		(at 152.4 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9ef667f-b48f-41c3-93bb-88b7f458c32a")
+	)
+	(junction
+		(at 163.83 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1e85632-30e8-4274-ae70-a8589e1815ee")
+	)
+	(junction
+		(at 152.4 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef73a524-f1c2-45da-9737-acc81c915682")
+	)
+	(junction
+		(at 74.93 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7f1f8a6-57a7-4b41-9027-7228889cf68e")
+	)
+	(junction
+		(at 229.87 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbc83cdd-fe21-43b7-908b-71a945f9faef")
+	)
+	(junction
+		(at 219.71 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe11af51-cc9d-4f1d-8baf-ecc6e5d08e97")
+	)
+	(wire
+		(pts
+			(xy 74.93 157.48) (xy 73.66 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00109696-a1da-4fd4-b7c5-6362102de73d")
+	)
+	(wire
+		(pts
+			(xy 152.4 52.07) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ac543d-eaa4-40eb-883a-97afeba3cd2f")
+	)
+	(wire
+		(pts
+			(xy 110.49 118.11) (xy 110.49 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e9ce0c-c129-4415-beeb-f1d35aee0a1f")
+	)
+	(wire
+		(pts
+			(xy 219.71 82.55) (xy 201.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "030c8fda-729e-4869-a916-54278e675989")
+	)
+	(wire
+		(pts
+			(xy 74.93 118.11) (xy 74.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b55658-1a8b-4241-ad70-5c838b41de2e")
+	)
+	(wire
+		(pts
+			(xy 154.94 105.41) (xy 153.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0571e886-35f7-4336-af6d-c2a3800ceeb1")
+	)
+	(wire
+		(pts
+			(xy 74.93 114.3) (xy 72.39 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1d3a0f-0d4f-4cee-acdb-ffb775d2a31b")
+	)
+	(wire
+		(pts
+			(xy 67.31 135.89) (xy 67.31 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd7317f-ecf8-4771-88af-e280ebdc41fa")
+	)
+	(wire
+		(pts
+			(xy 135.89 82.55) (xy 135.89 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d25f093-2350-482b-a148-5a64103b9a52")
+	)
+	(wire
+		(pts
+			(xy 137.16 39.37) (xy 134.62 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f092ea9-fe8e-4e1c-acd7-e22d3405b844")
+	)
+	(wire
+		(pts
+			(xy 115.57 41.91) (xy 115.57 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106dd4bd-b131-46c3-a9e1-9ba80c158414")
+	)
+	(wire
+		(pts
+			(xy 152.4 153.67) (xy 147.32 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1120b6a9-0d81-44e0-88b8-81a2d4f56abc")
+	)
+	(wire
+		(pts
+			(xy 69.85 114.3) (xy 69.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ea8ae5-4580-4bc3-96ff-8d3e428b2410")
+	)
+	(wire
+		(pts
+			(xy 153.67 105.41) (xy 153.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155ff1fb-15a6-4eed-b300-b16c0c61030e")
+	)
+	(wire
+		(pts
+			(xy 110.49 152.4) (xy 110.49 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bdc63e-2156-4e0b-816d-cdd6e3fe03e3")
+	)
+	(wire
+		(pts
+			(xy 72.39 153.67) (xy 69.85 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4f611d-270b-4f6e-b676-3a9407f8c2b3")
+	)
+	(wire
+		(pts
+			(xy 181.61 69.85) (xy 181.61 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7d4a1c-1e1a-48ab-a342-abfbb594ea6e")
+	)
+	(wire
+		(pts
+			(xy 147.32 166.37) (xy 163.83 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca07104-fb9e-4cb0-be29-206dc6789985")
+	)
+	(wire
+		(pts
+			(xy 168.91 54.61) (xy 168.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb1d048-08dd-4c52-a087-95afb4c45d4a")
+	)
+	(wire
+		(pts
+			(xy 135.89 46.99) (xy 135.89 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbff759-f9c4-4bb9-ab1d-c21b8d245acd")
+	)
+	(wire
+		(pts
+			(xy 69.85 151.13) (xy 69.85 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ced627d-6fee-428e-80f0-3b3f011c2e0e")
+	)
+	(wire
+		(pts
+			(xy 134.62 26.67) (xy 148.59 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9dbad8-21a2-412e-9795-edcc9a6125ab")
+	)
+	(wire
+		(pts
+			(xy 158.75 151.13) (xy 158.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f54d397-095b-48f7-aa74-12363da41bd2")
+	)
+	(wire
+		(pts
+			(xy 135.89 153.67) (xy 135.89 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f63c73-123e-4c74-9802-b67c710a6333")
+	)
+	(wire
+		(pts
+			(xy 63.5 170.18) (xy 63.5 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2258676c-299f-4c15-bd9d-94e4a7357469")
+	)
+	(wire
+		(pts
+			(xy 252.73 82.55) (xy 264.16 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22966da7-2cf1-45a0-90dc-4ae249be35ef")
+	)
+	(wire
+		(pts
+			(xy 149.86 114.3) (xy 153.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237b4521-e0d7-469a-a9b8-17873132ef44")
+	)
+	(wire
+		(pts
+			(xy 191.77 82.55) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254809ae-c313-4ed1-a1c6-ec4e773067b8")
+	)
+	(wire
+		(pts
+			(xy 64.77 105.41) (xy 64.77 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287887eb-c0ff-4ad4-8b73-106ce26eb802")
+	)
+	(wire
+		(pts
+			(xy 21.59 91.44) (xy 21.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28847207-7d44-4d35-9f76-faa1777b872f")
+	)
+	(wire
+		(pts
+			(xy 74.93 135.89) (xy 74.93 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2062fb-5fda-4e9a-9693-ecd283a7cd8b")
+	)
+	(wire
+		(pts
+			(xy 201.93 39.37) (xy 167.64 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b050175-5803-4a7c-b01c-3932625c8806")
+	)
+	(wire
+		(pts
+			(xy 134.62 39.37) (xy 134.62 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8103ea-f59b-47c2-a280-3c7731aa88ce")
+	)
+	(wire
+		(pts
+			(xy 86.36 93.98) (xy 86.36 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e36f210-5573-43c7-889d-a0f523e0b732")
+	)
+	(wire
+		(pts
+			(xy 74.93 166.37) (xy 74.93 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f819622-edf4-46ab-b329-441358d93951")
+	)
+	(wire
+		(pts
+			(xy 104.14 66.04) (xy 104.14 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fffd3c5-c029-46a8-8b87-1fafde54cb39")
+	)
+	(wire
+		(pts
+			(xy 241.3 82.55) (xy 252.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332b9968-2aca-4871-a9fe-6b776605c4de")
+	)
+	(wire
+		(pts
+			(xy 229.87 66.04) (xy 229.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358ad235-4e55-4bbe-8853-d973ecae0a8a")
+	)
+	(wire
+		(pts
+			(xy 219.71 49.53) (xy 219.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3797fd70-4412-44a3-9793-7a49cc949ea8")
+	)
+	(wire
+		(pts
+			(xy 163.83 93.98) (xy 86.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c0e42f-5047-49e9-8757-ed6b5fda4619")
+	)
+	(wire
+		(pts
+			(xy 241.3 26.67) (xy 252.73 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390d7d04-8670-4404-bbe2-da26b8f6d3ee")
+	)
+	(wire
+		(pts
+			(xy 127 82.55) (xy 135.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa26ccc-8999-4178-ba05-707420fba8dc")
+	)
+	(wire
+		(pts
+			(xy 104.14 41.91) (xy 104.14 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bfd26c8-7b98-4e36-9dc4-ca549c66d335")
+	)
+	(wire
+		(pts
+			(xy 163.83 118.11) (xy 163.83 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e87801a-c1b0-4e39-a05e-4abdd4969bf1")
+	)
+	(wire
+		(pts
+			(xy 191.77 45.72) (xy 191.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec4f325-03b1-4375-a1a0-cf7cf6c9b87d")
+	)
+	(wire
+		(pts
+			(xy 115.57 134.62) (xy 110.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ecb261b-f7e0-4669-a75a-6bde88805030")
+	)
+	(wire
+		(pts
+			(xy 153.67 114.3) (xy 156.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ec3231-2d51-41c8-935f-81c9aed15d84")
+	)
+	(wire
+		(pts
+			(xy 46.99 82.55) (xy 104.14 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4212220f-c6cf-4234-bdd7-88c43c280257")
+	)
+	(wire
+		(pts
+			(xy 115.57 66.04) (xy 115.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439e9a28-21ab-4b20-9192-4e637dad194d")
+	)
+	(wire
+		(pts
+			(xy 125.73 153.67) (xy 125.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458826c0-ee28-40a7-8e15-d9023aaf2f31")
+	)
+	(wire
+		(pts
+			(xy 97.79 99.06) (xy 21.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4729f425-93d0-4c43-abff-bcc89992eb65")
+	)
+	(wire
+		(pts
+			(xy 46.99 153.67) (xy 46.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d2ceae-e0de-4fc9-b6fd-403fb0935aa4")
+	)
+	(wire
+		(pts
+			(xy 161.29 153.67) (xy 161.29 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4910a5a7-cf1f-47e0-9a5a-d52c0917693d")
+	)
+	(wire
+		(pts
+			(xy 214.63 26.67) (xy 219.71 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49323981-c154-4575-9c41-95cc4d09aa53")
+	)
+	(wire
+		(pts
+			(xy 74.93 157.48) (xy 74.93 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4219f8-0e09-45a9-96ea-34c586f6e67d")
+	)
+	(wire
+		(pts
+			(xy 46.99 153.67) (xy 36.83 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc6e1ea-2766-44f8-823c-c3951fb517f0")
+	)
+	(wire
+		(pts
+			(xy 156.21 114.3) (xy 156.21 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eda932a-e2b2-4a7a-9809-0bfbf27a3662")
+	)
+	(wire
+		(pts
+			(xy 66.04 105.41) (xy 64.77 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50831e39-1249-4ab1-a3de-817de72c6df0")
+	)
+	(wire
+		(pts
+			(xy 158.75 114.3) (xy 158.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d07f9c-4f35-4106-a7b6-49d8a26f4d08")
+	)
+	(wire
+		(pts
+			(xy 127 66.04) (xy 127 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515f2f4c-8190-427a-9b39-ba03e6ddba2f")
+	)
+	(wire
+		(pts
+			(xy 73.66 105.41) (xy 74.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c558a9-41da-4fe5-802b-ecd8148b3bb0")
+	)
+	(wire
+		(pts
+			(xy 191.77 44.45) (xy 181.61 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520b1212-356f-48c6-83a3-60e4e501027e")
+	)
+	(wire
+		(pts
+			(xy 69.85 135.89) (xy 69.85 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52873721-3c5e-461b-ba31-c7b9fcd4b3e7")
+	)
+	(wire
+		(pts
+			(xy 201.93 41.91) (xy 201.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5445ebfa-2035-474d-bc06-afabe31ef3df")
+	)
+	(wire
+		(pts
+			(xy 72.39 135.89) (xy 72.39 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565e7e67-18c2-4fdb-a3e0-216ddff0b502")
+	)
+	(wire
+		(pts
+			(xy 219.71 36.83) (xy 219.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f8fcdc-9e65-4b49-b990-e87609a50c38")
+	)
+	(wire
+		(pts
+			(xy 252.73 66.04) (xy 252.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7ef480-2535-457c-ad36-b1c30968c5cf")
+	)
+	(wire
+		(pts
+			(xy 102.87 147.32) (xy 97.79 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e10f4e0-a82c-4bfe-a8cb-8448e7114cc5")
+	)
+	(wire
+		(pts
+			(xy 63.5 153.67) (xy 67.31 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e97dcd6-f622-4f2b-a303-9ada6858907d")
+	)
+	(wire
+		(pts
+			(xy 229.87 26.67) (xy 229.87 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ead6d5b-4669-4d61-b01a-2166134012d1")
+	)
+	(wire
+		(pts
+			(xy 191.77 66.04) (xy 191.77 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb19913-6bba-4be8-a632-49dbdf37eac0")
+	)
+	(wire
+		(pts
+			(xy 152.4 153.67) (xy 156.21 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6036beaa-3fab-4e56-b30c-15e39295f862")
+	)
+	(wire
+		(pts
+			(xy 219.71 26.67) (xy 219.71 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611f2184-3a80-4897-ae82-1c39adae28d7")
+	)
+	(wire
+		(pts
+			(xy 86.36 170.18) (xy 63.5 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626295be-7e38-46cc-a82d-f50111bd8223")
+	)
+	(wire
+		(pts
+			(xy 163.83 105.41) (xy 163.83 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674140d3-6605-486c-a469-6245c53edcfa")
+	)
+	(wire
+		(pts
+			(xy 241.3 82.55) (xy 229.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754b0efa-df64-4d80-8705-511aec23f804")
+	)
+	(wire
+		(pts
+			(xy 161.29 153.67) (xy 158.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d16946-3d57-4e3a-9164-a2f8954a6279")
+	)
+	(wire
+		(pts
+			(xy 58.42 166.37) (xy 74.93 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768ed09b-b81a-4a7a-a0a8-d07343ecb9eb")
+	)
+	(wire
+		(pts
+			(xy 252.73 26.67) (xy 264.16 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76cea08a-d1bf-4db4-b7ca-d1e7a8ee20d9")
+	)
+	(wire
+		(pts
+			(xy 128.27 134.62) (xy 123.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77718687-a4cf-4d1f-a183-8050dfb368ff")
+	)
+	(wire
+		(pts
+			(xy 86.36 161.29) (xy 86.36 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "793978cd-85da-44e9-8087-22a4890fde27")
+	)
+	(wire
+		(pts
+			(xy 161.29 135.89) (xy 161.29 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7958a729-8ff1-46b4-96f7-a718a5481160")
+	)
+	(wire
+		(pts
+			(xy 127 44.45) (xy 127 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a1e71c-0d70-4455-97b0-bec1d8011b0e")
+	)
+	(wire
+		(pts
+			(xy 72.39 118.11) (xy 72.39 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9822ba-0bb7-4038-9907-3b5446c13bf6")
+	)
+	(wire
+		(pts
+			(xy 175.26 41.91) (xy 175.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82137e02-048c-41b5-ab5a-3063c1993a7c")
+	)
+	(wire
+		(pts
+			(xy 163.83 105.41) (xy 163.83 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845666d6-6d7f-4790-9ab1-9d00a414dba8")
+	)
+	(wire
+		(pts
+			(xy 158.75 153.67) (xy 156.21 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847c1d2a-69dc-43d6-adb5-440a79c13fa0")
+	)
+	(wire
+		(pts
+			(xy 219.71 54.61) (xy 219.71 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853b5886-89bd-47e9-b430-7b8c60deec1d")
+	)
+	(wire
+		(pts
+			(xy 264.16 66.04) (xy 264.16 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869a4a2e-22c0-4b7c-ab04-75c6195aa37a")
+	)
+	(wire
+		(pts
+			(xy 139.7 153.67) (xy 135.89 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2aa517-d35a-4968-a8b2-30b1ce660836")
+	)
+	(wire
+		(pts
+			(xy 60.96 114.3) (xy 64.77 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2009ba-c3b7-4a98-b3ac-d94a5845d51a")
+	)
+	(wire
+		(pts
+			(xy 270.51 26.67) (xy 264.16 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cba402b-999f-4d56-859a-53b543d7ae4f")
+	)
+	(wire
+		(pts
+			(xy 161.29 114.3) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6724f9-8c3b-4ad6-9800-acb429d70ea4")
+	)
+	(wire
+		(pts
+			(xy 67.31 114.3) (xy 67.31 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa356e7-f636-41ae-9c32-3969441a5ad6")
+	)
+	(wire
+		(pts
+			(xy 97.79 123.19) (xy 97.79 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908d16d4-b349-4078-a901-f9bf6f219a81")
+	)
+	(wire
+		(pts
+			(xy 115.57 82.55) (xy 127 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92121a8b-54c7-4987-abc0-c3030a5819d4")
+	)
+	(wire
+		(pts
+			(xy 21.59 99.06) (xy 21.59 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d02a46-0e82-486b-815d-d31cbbd135fb")
+	)
+	(wire
+		(pts
+			(xy 135.89 46.99) (xy 137.16 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aac15c5-d751-4e44-bd22-33ea8f835334")
+	)
+	(wire
+		(pts
+			(xy 175.26 41.91) (xy 167.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9afb2935-0233-4b79-96bd-723b7dafb43f")
+	)
+	(wire
+		(pts
+			(xy 152.4 82.55) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bdd96b5-a8b3-4acf-836d-ab7b6ad71a57")
+	)
+	(wire
+		(pts
+			(xy 168.91 54.61) (xy 219.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be2e51f-8ed8-4e74-a1cb-ff6b8ec95aad")
+	)
+	(wire
+		(pts
+			(xy 163.83 114.3) (xy 161.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c572a2b-7e9f-42df-bfcb-0f5d3cbb16a6")
+	)
+	(wire
+		(pts
+			(xy 241.3 66.04) (xy 241.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3a1261-e291-4c2a-9211-738783221c67")
+	)
+	(wire
+		(pts
+			(xy 241.3 26.67) (xy 229.87 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1151094-db84-489f-9b3d-9b9f73c94b0d")
+	)
+	(wire
+		(pts
+			(xy 167.64 46.99) (xy 168.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14560a7-923d-4ae4-b2f0-a0821ef6851c")
+	)
+	(wire
+		(pts
+			(xy 72.39 153.67) (xy 72.39 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a230210f-0f13-4d96-bce7-ffe35981349e")
+	)
+	(wire
+		(pts
+			(xy 163.83 166.37) (xy 163.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3322508-382a-4f02-bd2f-208e3ce7df78")
+	)
+	(wire
+		(pts
+			(xy 36.83 153.67) (xy 36.83 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62c7209-370a-47f4-b06c-c3bae371095f")
+	)
+	(wire
+		(pts
+			(xy 152.4 82.55) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63af67b-bc43-4db9-b6fa-2600a7e67d34")
+	)
+	(wire
+		(pts
+			(xy 50.8 166.37) (xy 36.83 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7550a36-2e76-4553-a919-b072784fe836")
+	)
+	(wire
+		(pts
+			(xy 161.29 118.11) (xy 161.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ed04b1-c537-406b-beee-6cafbbfa9da6")
+	)
+	(wire
+		(pts
+			(xy 64.77 114.3) (xy 67.31 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f83e84-6c04-4cd7-a2a3-962d46cd2c5c")
+	)
+	(wire
+		(pts
+			(xy 67.31 151.13) (xy 67.31 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a925bb1a-4242-48d3-99ee-122cb1c66c88")
+	)
+	(wire
+		(pts
+			(xy 39.37 134.62) (xy 34.29 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a942f072-8edc-4ee8-94fd-6bf4dd13e4a9")
+	)
+	(wire
+		(pts
+			(xy 152.4 157.48) (xy 152.4 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94aa5b4-1054-4aad-83f0-0fb6443ab419")
+	)
+	(wire
+		(pts
+			(xy 264.16 26.67) (xy 264.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7f66e5-57e2-481d-babb-938a2b1e8086")
+	)
+	(wire
+		(pts
+			(xy 86.36 93.98) (xy 74.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bf3181-ce5a-4484-8dc7-721575ff9afe")
+	)
+	(wire
+		(pts
+			(xy 135.89 67.31) (xy 135.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0fc2ac2-a3db-4742-9d63-623b8c0631b3")
+	)
+	(wire
+		(pts
+			(xy 46.99 82.55) (xy 46.99 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2898a32-dbd1-498e-9352-b391dd0c4575")
+	)
+	(wire
+		(pts
+			(xy 63.5 157.48) (xy 63.5 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30e06c0-20ff-4f0a-91a0-438b3a3f2751")
+	)
+	(wire
+		(pts
+			(xy 162.56 105.41) (xy 163.83 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32fcb6a-b05b-4b8c-9eaa-0f3194431735")
+	)
+	(wire
+		(pts
+			(xy 191.77 82.55) (xy 201.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42d7eae-b857-4e6d-92dd-ffce6196f52f")
+	)
+	(wire
+		(pts
+			(xy 201.93 49.53) (xy 201.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b512e07c-4f2f-4c9c-88bb-c025532ab2d7")
+	)
+	(wire
+		(pts
+			(xy 97.79 147.32) (xy 97.79 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60d0f22-00f2-4b05-800f-b63392debb25")
+	)
+	(wire
+		(pts
+			(xy 191.77 53.34) (xy 191.77 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6404bee-4533-414c-9a26-9bc19aedaba7")
+	)
+	(wire
+		(pts
+			(xy 154.94 157.48) (xy 152.4 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9877d7e-8286-4c91-b167-eea25f7d1f3c")
+	)
+	(wire
+		(pts
+			(xy 135.89 82.55) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3a4ce5-07b8-4eff-a47c-0f2d49ffbb4d")
+	)
+	(wire
+		(pts
+			(xy 115.57 41.91) (xy 137.16 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4d318e-5a87-40c9-bbcb-161d6d8beaa7")
+	)
+	(wire
+		(pts
+			(xy 135.89 153.67) (xy 125.73 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b1fadf-c81a-4c48-b3af-2607dafffb70")
+	)
+	(wire
+		(pts
+			(xy 74.93 41.91) (xy 104.14 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35ba026-326d-4c00-8a29-197bdb7ec2c0")
+	)
+	(wire
+		(pts
+			(xy 72.39 114.3) (xy 69.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb24cae8-39eb-490c-8f0f-6a631364a15f")
+	)
+	(wire
+		(pts
+			(xy 127 44.45) (xy 137.16 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1f5a93-0f49-437b-b6e8-a6482693dcdd")
+	)
+	(wire
+		(pts
+			(xy 63.5 153.67) (xy 58.42 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2f9b72-7cf8-42cf-862a-37bce209a203")
+	)
+	(wire
+		(pts
+			(xy 163.83 157.48) (xy 163.83 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0d32bb-6f7b-4273-8121-7076131c233a")
+	)
+	(wire
+		(pts
+			(xy 158.75 135.89) (xy 158.75 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0cf281e-8ab7-4aba-b603-c752de0b9474")
+	)
+	(wire
+		(pts
+			(xy 191.77 77.47) (xy 191.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1485c6a-b965-4cab-abd4-52d4ef84aa89")
+	)
+	(wire
+		(pts
+			(xy 163.83 157.48) (xy 162.56 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d15af599-ec65-414c-abbc-fce8e39d791c")
+	)
+	(wire
+		(pts
+			(xy 50.8 153.67) (xy 46.99 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22083a9-36e1-497c-bd82-1d28d2c956b9")
+	)
+	(wire
+		(pts
+			(xy 69.85 153.67) (xy 67.31 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b49d14-d03f-4fba-adea-199e380234b2")
+	)
+	(wire
+		(pts
+			(xy 36.83 166.37) (xy 36.83 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b7e2af-88f1-4f2b-951f-02bb61dd1442")
+	)
+	(wire
+		(pts
+			(xy 74.93 93.98) (xy 74.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6aeeaf7-275e-45ad-a706-41be18a2e1c9")
+	)
+	(wire
+		(pts
+			(xy 125.73 114.3) (xy 142.24 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c3154e-846c-40c0-a22e-77134cde81e8")
+	)
+	(wire
+		(pts
+			(xy 110.49 134.62) (xy 110.49 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da93b4ad-fc12-451a-844a-7ca9218d7712")
+	)
+	(wire
+		(pts
+			(xy 201.93 26.67) (xy 201.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6a1236-0e23-456f-8017-f382f847b9d6")
+	)
+	(wire
+		(pts
+			(xy 36.83 114.3) (xy 53.34 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de190fe4-ce2e-4911-bf03-9c785b8589cd")
+	)
+	(wire
+		(pts
+			(xy 74.93 105.41) (xy 74.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5d37c8-e5ff-40e1-a0c0-e8e82105ccdf")
+	)
+	(wire
+		(pts
+			(xy 124.46 44.45) (xy 127 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e000ceba-521f-4f4a-8aa2-a1e825d76c21")
+	)
+	(wire
+		(pts
+			(xy 219.71 82.55) (xy 229.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0366d97-348c-4f91-aa71-db2d1dca1175")
+	)
+	(wire
+		(pts
+			(xy 139.7 166.37) (xy 125.73 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d0324e-5f78-42d2-9820-4d34c5f8c2b9")
+	)
+	(wire
+		(pts
+			(xy 135.89 57.15) (xy 135.89 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1dda1f6-5f5c-4630-b91c-7a6c14c583b9")
+	)
+	(wire
+		(pts
+			(xy 26.67 134.62) (xy 21.59 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e4ebda-2fe1-494b-80ef-a709ee27ece7")
+	)
+	(wire
+		(pts
+			(xy 201.93 26.67) (xy 207.01 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e665cdd2-49f1-42ef-b735-4796ef988f5e")
+	)
+	(wire
+		(pts
+			(xy 156.21 151.13) (xy 156.21 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e869dbc3-8674-4971-8be0-74e9a1bfac5f")
+	)
+	(wire
+		(pts
+			(xy 163.83 135.89) (xy 163.83 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c85f46-b2d1-4195-8b92-cb24ed071c1d")
+	)
+	(wire
+		(pts
+			(xy 104.14 41.91) (xy 115.57 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e960ae3e-ef6f-4a7f-bf37-0fee2bd82bbe")
+	)
+	(wire
+		(pts
+			(xy 110.49 130.81) (xy 110.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eadc1887-cebd-493a-a18b-f0c48a81a44d")
+	)
+	(wire
+		(pts
+			(xy 156.21 135.89) (xy 156.21 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6c82e4-cece-44ed-a872-a3d4816c8f03")
+	)
+	(wire
+		(pts
+			(xy 167.64 44.45) (xy 181.61 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd898ba-ec4c-417c-b174-f1e305775e23")
+	)
+	(wire
+		(pts
+			(xy 104.14 82.55) (xy 115.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4e5fe0-297c-4d27-8352-2a01a863e516")
+	)
+	(wire
+		(pts
+			(xy 63.5 173.99) (xy 63.5 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f018de09-7193-4214-bb72-0888fab3caff")
+	)
+	(wire
+		(pts
+			(xy 229.87 26.67) (xy 219.71 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53e010e-4612-4452-8888-bb18a4865dfa")
+	)
+	(wire
+		(pts
+			(xy 241.3 26.67) (xy 241.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5404396-65ec-4d56-b37e-2fa3d3dba26e")
+	)
+	(wire
+		(pts
+			(xy 181.61 77.47) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6bd18e4-1c5c-4e94-958f-a4b71bd65cfa")
+	)
+	(wire
+		(pts
+			(xy 152.4 173.99) (xy 152.4 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70770b3-0f0c-4f1b-bc8e-59f20025729a")
+	)
+	(wire
+		(pts
+			(xy 125.73 166.37) (xy 125.73 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92f89b5-be0c-4724-9a61-a3fc2b345d8f")
+	)
+	(wire
+		(pts
+			(xy 66.04 157.48) (xy 63.5 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc42cf8a-5a85-4dff-ad4a-f02f5454fc34")
+	)
+	(wire
+		(pts
+			(xy 219.71 66.04) (xy 219.71 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc655e14-9ecc-4569-8a81-c1483b8374c2")
+	)
+	(wire
+		(pts
+			(xy 74.93 41.91) (xy 74.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6e5028-e2af-4f93-b552-831bf058fc85")
+	)
+	(wire
+		(pts
+			(xy 156.21 26.67) (xy 201.93 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6d56d6-afa9-4e57-94a2-88406121e9d9")
+	)
+	(wire
+		(pts
+			(xy 252.73 58.42) (xy 252.73 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb417f1-de14-419a-914e-b8e9967a78a7")
+	)
+	(hierarchical_label "PWR_MUX_SEL"
+		(shape input)
+		(at 21.59 91.44 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "009cb287-4ec9-4392-a179-4b04dc5b6070")
+	)
+	(hierarchical_label "Vout"
+		(shape output)
+		(at 270.51 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1275710b-f3c0-428d-84b8-2e621d291b9a")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 124.46 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "426e8d8d-7b21-4f84-8814-27f38d49a43b")
+	)
+	(hierarchical_label "V_24V"
+		(shape input)
+		(at 152.4 173.99 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f1f04a6-e019-40ed-8824-00636d1361b4")
+	)
+	(hierarchical_label "V_3V3"
+		(shape input)
+		(at 110.49 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4dc5bdd-0d37-4f99-9851-616f2a02759b")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 63.5 173.99 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea693d6e-165d-4a76-a5be-df14792275d5")
+	)
+	(symbol
+		(lib_id "EasyEDA:WSP6047")
+		(at 64.77 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a7b0922-73c1-4005-8c14-d454821b6139")
+		(property "Reference" "Q22"
+			(at 59.69 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WSP6047"
+			(at 62.23 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:SO-8_L4.9-W3.9-P1.27-LS5.9-BL"
+			(at 82.55 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Winsok-Semicon-WSP6047_C719114.html"
+			(at 85.09 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C719114"
+			(at 87.63 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "5ae19771-1063-48ad-bb64-e6a7af98b01b")
+		)
+		(pin "7"
+			(uuid "d1eb5fda-d1f4-4f64-adc5-d39263198c64")
+		)
+		(pin "8"
+			(uuid "ce80897e-5a63-43f9-8313-b201364aaa0a")
+		)
+		(pin "5"
+			(uuid "df1dfe5d-5464-4607-bfb1-051c4dee5d89")
+		)
+		(pin "2"
+			(uuid "ed0d5c14-2706-43e7-8a65-f7fe6a5c7397")
+		)
+		(pin "3"
+			(uuid "87fab706-951a-413f-87de-d25f0c65fc17")
+		)
+		(pin "4"
+			(uuid "0f0f72b5-80e9-4c8d-8864-4d27100bad58")
+		)
+		(pin "1"
+			(uuid "4cbf89a9-b749-41d1-9461-3ea61583ff4a")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "Q36")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "Q57")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "Q22")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "Q50")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "Q21")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "Q43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 201.93 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12b7431a-dfd4-414a-af02-4cbf9b87b429")
+		(property "Reference" "D10"
+			(at 204.47 44.1324 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS54C"
+			(at 204.47 46.6724 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SMC_L7.1-W6.2-LS8.1-R-RD"
+			(at 201.93 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 201.93 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C16103"
+			(at 201.93 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f07311d-63e5-4909-b971-185a38b1a073")
+		)
+		(pin "2"
+			(uuid "8375249d-aab3-4d08-9174-843ebc6940ca")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "D38")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "D33")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15ec21b3-a452-4020-8e97-cd4f05fe7ef9")
+		(property "Reference" "#PWR044"
+			(at 110.49 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "072e140f-7ebc-412a-9a46-ed2e5f000618")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 153.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f748127-3def-4e4e-8880-fd78132c38b3")
+		(property "Reference" "R211"
+			(at 54.61 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 54.61 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 151.892 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b2bed0d3-5c97-421b-91dd-1c98e6c2ae2e")
+		)
+		(pin "1"
+			(uuid "aeb726b5-c980-413f-bd71-6f525360f9d5")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R229")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R289")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R211")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R269")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R211")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R249")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ff78853-f020-4c60-a94b-194243109d88")
+		(property "Reference" "R200"
+			(at 222.25 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${R_FBT2}"
+			(at 222.25 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0805"
+			(at 217.932 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${R_FBT2_PART}"
+			(at 219.71 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f89eae67-9ba9-44f7-a495-49e1b7a219e1")
+		)
+		(pin "2"
+			(uuid "1907127e-485f-4873-8ef2-1e8ef8b02ffc")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R245")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R305")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R200")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R285")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R265")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_5")
+		(lib_id "Device:C")
+		(at 229.87 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2723a8ff-a578-4da1-b14d-7d639d537b42")
+		(property "Reference" "C78"
+			(at 233.68 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${C_OUT}"
+			(at 233.68 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "${C_OUT_FOOT}"
+			(at 230.8352 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 229.87 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${C_OUT_PART}"
+			(at 229.87 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "91c01c95-3677-4d37-aea5-f7e1329d02a8")
+		)
+		(pin "1"
+			(uuid "5162da52-10d2-4518-b61c-d2c422ff8aca")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "C89")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "C116")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "C78")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "C107")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "C98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 69.85 105.41 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27945bcd-430e-41d4-ba58-49d54fc55a16")
+		(property "Reference" "D12"
+			(at 69.85 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 69.85 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 69.85 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7bd18a3e-f00d-4ff0-a64d-4e5b6374bdf4")
+		)
+		(pin "1"
+			(uuid "768a6993-d358-4866-bf7f-7282657ddae7")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "D34")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:2N7002")
+		(at 128.27 139.7 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27c57bf5-fb4f-453b-ae32-8f0817702588")
+		(property "Reference" "Q30"
+			(at 140.97 135.8901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 140.97 133.3501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 128.27 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_2N7002-7002_C8545.html"
+			(at 128.27 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C8545"
+			(at 128.27 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3f95e60-caba-4b51-8d22-19a0ab1b70f8")
+		)
+		(pin "3"
+			(uuid "4b26fd10-b64f-49d6-93fe-b5fe66aa4a70")
+		)
+		(pin "2"
+			(uuid "f5293396-9140-48aa-851b-aba1a4d88569")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "Q39")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "Q60")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "Q30")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "Q53")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "Q27")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "Q46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 97.79 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b4e8e7b-67e2-4524-b860-031ef9215c65")
+		(property "Reference" "R225"
+			(at 100.33 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 100.33 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.012 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.79 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4eac23b6-958e-4f01-b83d-d15c4a040961")
+		)
+		(pin "1"
+			(uuid "25118510-f26b-4fca-876a-56a998282db3")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R233")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R293")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R225")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R273")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R224")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R253")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d6e7a8e-6711-4d7f-b1b4-a8332f4f008a")
+		(property "Reference" "R221"
+			(at 146.05 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 146.05 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 112.522 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "649c963a-399d-497f-b396-9fd27688ee95")
+		)
+		(pin "1"
+			(uuid "b76b7ea3-06b0-4ebf-b59e-834e9914b85e")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R241")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R301")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R221")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R281")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R217")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R261")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:2N7002")
+		(at 39.37 139.7 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30de820b-ef6e-47e5-ac73-20e28ada55be")
+		(property "Reference" "Q26"
+			(at 52.07 135.8901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 52.07 133.3501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 39.37 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_2N7002-7002_C8545.html"
+			(at 39.37 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C8545"
+			(at 39.37 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0af41b25-a078-49a4-b81a-8e0fbb1232bc")
+		)
+		(pin "3"
+			(uuid "cc633dfe-7da0-4a0e-8aee-ef8977e338a7")
+		)
+		(pin "2"
+			(uuid "153aee9b-9457-4dcd-9a9b-d9c948ac88ea")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "Q35")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "Q56")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "Q26")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "Q49")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "Q26")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "Q42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WSP6047")
+		(at 153.67 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "388f2b78-5b14-4d59-8b52-2a5478137ab8")
+		(property "Reference" "Q31"
+			(at 148.59 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WSP6047"
+			(at 151.13 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:SO-8_L4.9-W3.9-P1.27-LS5.9-BL"
+			(at 171.45 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Winsok-Semicon-WSP6047_C719114.html"
+			(at 173.99 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C719114"
+			(at 176.53 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "6bf3bf12-4915-4ea8-bfa5-35b9132d6e06")
+		)
+		(pin "7"
+			(uuid "38ad9443-b223-4895-8814-55b0d7b09e7e")
+		)
+		(pin "8"
+			(uuid "96526ae7-e3e1-4a74-a1ca-3c8c9ec76eb0")
+		)
+		(pin "5"
+			(uuid "eb22adfc-9a54-45db-a679-ee5cff0485f2")
+		)
+		(pin "2"
+			(uuid "94c2c6f7-e87e-44d8-b828-797f6fd86e88")
+		)
+		(pin "3"
+			(uuid "2f1efe80-cfb3-4bc9-a36a-9b41e5412675")
+		)
+		(pin "4"
+			(uuid "0563cc2e-0992-4a06-894d-36dd875e2f41")
+		)
+		(pin "1"
+			(uuid "0fb5edbf-b625-49bd-b998-46cc8041c773")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "Q40")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "Q61")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "Q31")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "Q54")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "Q28")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "Q47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 57.15 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40274819-0b6d-45e2-b93f-0364844d8cb6")
+		(property "Reference" "R209"
+			(at 57.15 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 57.15 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 112.522 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ae429d2-1138-42ce-aace-d1221b2a9eee")
+		)
+		(pin "1"
+			(uuid "1c3631be-4c7b-4ac1-9410-91a07cb377f5")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R231")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R291")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R209")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R271")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R209")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R251")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_6")
+		(lib_id "Device:C")
+		(at 241.3 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "405ee293-b271-4d7b-8c8f-0f1b73813c2f")
+		(property "Reference" "C79"
+			(at 245.11 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${C_OUT}"
+			(at 245.11 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "${C_OUT_FOOT}"
+			(at 242.2652 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 241.3 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${C_OUT_PART}"
+			(at 241.3 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9a0fbda8-ab4e-4874-87c7-b471528050c1")
+		)
+		(pin "1"
+			(uuid "0fe9ec34-4e31-4fdd-b65d-97ef8ec840b2")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "C90")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "C117")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "C79")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "C108")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "C99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 166.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4154b033-7d08-41ad-b6b5-e79cf0378ecf")
+		(property "Reference" "R220"
+			(at 143.51 172.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 143.51 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 164.592 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "843fafe4-297c-471d-97e3-683043a92587")
+		)
+		(pin "2"
+			(uuid "c38c4280-cf87-4120-b0a1-9f412dc474e8")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R240")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R300")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R220")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R280")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R216")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R260")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "453fa6a4-9ac1-4654-9452-028622ef969a")
+		(property "Reference" "C75"
+			(at 152.4 19.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 152.4 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:C0402"
+			(at 156.21 25.7048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 152.4 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "60649fbe-242c-4e33-9823-cfacc903aea1")
+		)
+		(pin "1"
+			(uuid "61eebb61-ae74-4f3c-a9a4-154320c175f9")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "C86")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "C113")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "C75")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "C104")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "C95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_4")
+		(lib_id "Device:C")
+		(at 191.77 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54138f53-8f19-46d9-b139-81b25aa53d1c")
+		(property "Reference" "C77"
+			(at 195.58 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${C_COMP}"
+			(at 195.58 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "${C_COMP_FOOT}"
+			(at 192.7352 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${C_COMP_PART}"
+			(at 191.77 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1683f136-74de-418c-b4da-ffb5ebc2cd39")
+		)
+		(pin "1"
+			(uuid "f87594f5-d6f0-4068-a64f-b958a5f9c2d7")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "C88")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "C115")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "C77")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "C106")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "C97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:TPS54560DDAR")
+		(at 137.16 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55dd8f7e-92c4-4747-93eb-5c781d00624d")
+		(property "Reference" "U21"
+			(at 152.4 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS54560DDAR"
+			(at 152.4 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP2.0"
+			(at 137.16 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_TI_TPS54560DDAR_TPS54560DDAR_C31966.html"
+			(at 137.16 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C31966"
+			(at 137.16 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "bcda7180-0e54-4a17-b72b-e97d261bd047")
+		)
+		(pin "3"
+			(uuid "e6364363-048f-47ca-b11b-5238e2e69e77")
+		)
+		(pin "1"
+			(uuid "bdd460d6-cb9b-40d5-a64a-5b749f658cfe")
+		)
+		(pin "4"
+			(uuid "4e27d276-c864-474c-aaec-765f76f61afd")
+		)
+		(pin "2"
+			(uuid "c101be9e-65b3-428f-8654-3cc7dc3218e1")
+		)
+		(pin "8"
+			(uuid "7b9b487e-2b90-4043-9e9f-d5eb6ec292fd")
+		)
+		(pin "7"
+			(uuid "ec1ecb88-a6b4-4d7d-b81e-924718f29b5b")
+		)
+		(pin "6"
+			(uuid "244eabc5-9bdd-4946-a42b-32f3ba2a7d5b")
+		)
+		(pin "5"
+			(uuid "173a899b-db3f-4cff-bdda-43324983d279")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "U22")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "U25")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "U21")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "U24")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "U23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5b5be8c4-0a91-472e-ae8f-b161395e4a11")
+		(property "Reference" "R227"
+			(at 88.9 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 88.9 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 84.582 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab5b2445-5be3-4347-98f3-ec1e8dd9d5ab")
+		)
+		(pin "2"
+			(uuid "1db002fb-b5e9-4617-aea0-e89e3cfef73a")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R232")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R292")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R227")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R272")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R226")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R252")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 153.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b7f8792-9cbb-4d57-83c5-873f52a7bbf3")
+		(property "Reference" "R219"
+			(at 143.51 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 143.51 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 151.892 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e7e4dc1a-aaf1-4797-b910-db3aebfa59dd")
+		)
+		(pin "1"
+			(uuid "4a47fa2b-ffa0-437d-ba3e-66dfe3d89891")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R239")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R299")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R219")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R279")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R215")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R259")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6792b38c-c599-4379-8f90-d268aa8fc1e4")
+		(property "Reference" "R223"
+			(at 113.03 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 113.03 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 108.712 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "79f06595-95d3-4e02-ac2d-02f543047cd7")
+		)
+		(pin "1"
+			(uuid "432d7a37-0f01-4f42-ba4d-3a06a3faaf7c")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R234")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R294")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R223")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R274")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R222")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R254")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 158.75 105.41 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71757fbf-7a19-4e05-8131-19003c423b42")
+		(property "Reference" "D17"
+			(at 158.75 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 158.75 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 158.75 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7de2f34f-02b1-4723-b3d6-256715a726c5")
+		)
+		(pin "1"
+			(uuid "bb0f7a9f-db85-412d-83da-01fe2cf919d8")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "D36")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "D31")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 30.48 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "754a7d94-5d16-4673-b0f6-56974bfa7d99")
+		(property "Reference" "R213"
+			(at 30.48 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 30.48 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 132.842 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 30.48 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2d86ffd8-3291-4ea7-a0a4-e62368041e49")
+		)
+		(pin "1"
+			(uuid "25a9c69d-563b-4b25-b1f5-55e27f324b33")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R228")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R288")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R213")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R268")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R213")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R248")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b483b6d-93dd-422d-bf58-fd098b23c2e5")
+		(property "Reference" "R197"
+			(at 138.43 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${R_T1}"
+			(at 138.43 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0805"
+			(at 134.112 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${R_T1_PART}"
+			(at 135.89 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0525c62e-9a8f-45ac-83cf-df468155702d")
+		)
+		(pin "2"
+			(uuid "cc5800d4-47e2-4601-b2c7-f0695c72b90b")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R237")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R297")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R197")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R277")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R257")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c9b6fd5-476d-4ad5-8bea-8fdb1ef1f7cd")
+		(property "Reference" "R203"
+			(at 138.43 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${R_T2}"
+			(at 138.43 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0805"
+			(at 134.112 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${R_T2_PART}"
+			(at 135.89 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef8cda35-ceb4-4f54-a711-c18efa4b16ca")
+		)
+		(pin "2"
+			(uuid "85f8ad27-a011-440d-9869-ffce624a55ea")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R238")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R298")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R203")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R278")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R202")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R258")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WSP6047")
+		(at 166.37 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fe539b4-7218-489f-9113-0599436fa866")
+		(property "Reference" "Q32"
+			(at 148.59 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WSP6047"
+			(at 151.13 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:SO-8_L4.9-W3.9-P1.27-LS5.9-BL"
+			(at 148.59 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Winsok-Semicon-WSP6047_C719114.html"
+			(at 146.05 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C719114"
+			(at 143.51 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7a92de54-b6b4-4cd6-ab63-9495d9cd6711")
+		)
+		(pin "1"
+			(uuid "9b70f082-b9fa-4577-a1d6-52e0dcf00523")
+		)
+		(pin "2"
+			(uuid "1b20fa17-ea50-44e4-a5bf-cd8e72c6adf1")
+		)
+		(pin "4"
+			(uuid "d259f14b-2fe2-4ce8-9a02-136fba9c27f6")
+		)
+		(pin "7"
+			(uuid "2b54f1c7-670e-4319-8904-25e7e6457fb2")
+		)
+		(pin "5"
+			(uuid "f902af57-e5fa-4e7c-ba03-dffd895bbe4e")
+		)
+		(pin "6"
+			(uuid "e3a21d03-022c-4fb0-868e-f2ee8b4b222e")
+		)
+		(pin "8"
+			(uuid "ed6f0802-6110-40d3-8fea-e6cf4a5d7f90")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "Q41")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "Q62")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "Q32")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "Q55")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "Q29")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "Q48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_6")
+		(lib_id "Device:C")
+		(at 264.16 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82231670-a680-4cc9-a5fc-1852a5c693af")
+		(property "Reference" "C83"
+			(at 267.97 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${C_OUT}"
+			(at 267.97 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "${C_OUT_FOOT}"
+			(at 265.1252 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 264.16 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${C_OUT_PART}"
+			(at 264.16 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "94886798-fb84-4c35-89f6-57bdee363311")
+		)
+		(pin "1"
+			(uuid "77213e38-21b9-4dba-830f-8a90cdfd29f3")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "C92")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "C119")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "C83")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "C110")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "C82")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_3")
+		(lib_id "Device:C")
+		(at 181.61 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84663301-2881-4d06-adf2-17e047207221")
+		(property "Reference" "C76"
+			(at 185.42 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${C_HF}"
+			(at 185.42 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:C0402"
+			(at 182.5752 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 181.61 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${C_HF_PART}"
+			(at 181.61 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1c4b786c-8239-44b0-9815-eb0b85b6d943")
+		)
+		(pin "1"
+			(uuid "5de3b944-40b5-4d81-aac7-6025cceaa7d2")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "C87")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "C114")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "C76")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "C105")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "C96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 191.77 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86b0af48-f318-4011-b6e9-fe0fe8ae7d0d")
+		(property "Reference" "R205"
+			(at 194.31 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${R_COMP2}"
+			(at 194.31 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0805"
+			(at 189.992 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 191.77 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${R_COMP2_PART}"
+			(at 191.77 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c9f1994-f8a0-44dd-9214-2582e463d184")
+		)
+		(pin "2"
+			(uuid "5964df2f-4062-489e-bd7c-8185f2616002")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R243")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R303")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R205")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R283")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R204")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R263")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 166.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "959717e9-87c5-4be0-931d-9c302d836524")
+		(property "Reference" "R207"
+			(at 54.61 172.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 54.61 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 164.592 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e940fb16-a2eb-4f1b-a618-81b05b3bb183")
+		)
+		(pin "2"
+			(uuid "d1ca0be2-8b94-43a2-aa07-79ab91bc8d67")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R230")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R290")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R207")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R270")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R207")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R250")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95b37097-dd55-43ce-8034-22c71267dad6")
+		(property "Reference" "R218"
+			(at 119.38 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 119.38 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 132.842 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ba187a0b-2949-4545-927a-4d7c267e407e")
+		)
+		(pin "1"
+			(uuid "bf4d7f9d-37c6-4b3c-8dfd-4585feb9ae57")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R235")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R295")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R218")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R275")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R214")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R255")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:2N7002")
+		(at 102.87 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a402af4c-42d1-470a-8354-87b1efba12e3")
+		(property "Reference" "Q34"
+			(at 115.57 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 115.57 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 102.87 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_2N7002-7002_C8545.html"
+			(at 102.87 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C8545"
+			(at 102.87 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9928b729-3158-42ec-a259-81fe826b6a68")
+		)
+		(pin "3"
+			(uuid "b56767aa-1ba0-4b10-8ffb-51b9b0402e0d")
+		)
+		(pin "2"
+			(uuid "592fb163-acca-4cfd-af56-30d697c631fa")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "Q38")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "Q59")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "Q34")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "Q52")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "Q33")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "Q45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a756e7c5-769c-4bcb-a802-5519a75790e9")
+		(property "Reference" "#PWR037"
+			(at 152.4 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77829fb3-b771-4acc-863e-d8be29cca83c")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_2")
+		(lib_id "Device:C")
+		(at 104.14 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a76a2ca6-a8e3-40d2-a0fd-37ed4eac3e43")
+		(property "Reference" "C73"
+			(at 107.95 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10µ"
+			(at 107.95 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:C1210"
+			(at 105.1052 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${C_IN1_PART}"
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c562678e-515b-4057-9d11-37f29068466e")
+		)
+		(pin "1"
+			(uuid "f40f3b5d-dc5a-475c-a658-d5b483aa62b5")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "C84")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "C111")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "C73")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "C102")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_6")
+		(lib_id "Device:C")
+		(at 252.73 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9a4e201-590c-4e5b-9f31-b137fc1296ae")
+		(property "Reference" "C81"
+			(at 256.54 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${C_OUT}"
+			(at 256.54 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "${C_OUT_FOOT}"
+			(at 253.6952 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 252.73 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${C_OUT_PART}"
+			(at 252.73 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "61192764-8011-493b-a823-4c62971373be")
+		)
+		(pin "1"
+			(uuid "c739d6d3-92b9-4179-9214-b41771e2d0c9")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "C91")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "C118")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "C81")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "C109")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "C80")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "C100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 210.82 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b82c5173-f927-4009-a4b1-a1356af64281")
+		(property "Reference" "L3"
+			(at 210.82 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "${L}"
+			(at 210.82 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:IND-SMD_L11.5-W10.0_SMMS1040"
+			(at 210.82 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 210.82 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${L_PART}"
+			(at 210.82 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5ba333b-425a-489f-b2f4-b6614934a14f")
+		)
+		(pin "2"
+			(uuid "34c0c686-71d5-4d63-88a2-66bb8b8cddfd")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "L4")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "L7")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "L3")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "L6")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "L2")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WSP6047")
+		(at 77.47 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bae99899-0c1d-437c-9670-70a5172abd06")
+		(property "Reference" "Q24"
+			(at 59.69 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WSP6047"
+			(at 62.23 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:SO-8_L4.9-W3.9-P1.27-LS5.9-BL"
+			(at 59.69 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Winsok-Semicon-WSP6047_C719114.html"
+			(at 57.15 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C719114"
+			(at 54.61 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e78061b6-6943-4364-ab31-22501446a9a7")
+		)
+		(pin "1"
+			(uuid "7036f99a-bf66-4df1-8c83-8a32b55c6a2b")
+		)
+		(pin "2"
+			(uuid "dd710639-a692-4d87-bd69-53af21be2754")
+		)
+		(pin "4"
+			(uuid "b9b79c49-bb0b-49a2-bf5f-b1e9f976c9b6")
+		)
+		(pin "7"
+			(uuid "fbbde6ad-79f5-4665-a280-e672d54a19f4")
+		)
+		(pin "5"
+			(uuid "282f0970-a9e7-45fe-8c94-85cbc2d60ae3")
+		)
+		(pin "6"
+			(uuid "5fabe23e-d77e-4c4a-b1de-55c2169eb9c5")
+		)
+		(pin "8"
+			(uuid "531608a6-6bc3-4bf8-b6d0-03cc81124a9e")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "Q37")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "Q58")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "Q24")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "Q51")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "Q23")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "Q44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_1")
+		(lib_id "Device:C")
+		(at 115.57 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb3e5088-44c2-45ee-8cde-8456f5a7964c")
+		(property "Reference" "C74"
+			(at 119.38 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 121.412 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:C0402"
+			(at 116.5352 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 115.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C307331"
+			(at 115.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "014f2b48-4b34-4a52-995a-e61a829dd068")
+		)
+		(pin "1"
+			(uuid "ca873b58-8e10-42a2-8b1f-ca6ef29cf862")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "C85")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "C112")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "C74")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "C103")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "C94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 158.75 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d214e041-58a5-4069-8586-9831bd7a5ba7")
+		(property "Reference" "D18"
+			(at 158.75 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 158.75 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 158.75 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "773b4481-3f19-40bc-89ae-12243cb56494")
+		)
+		(pin "1"
+			(uuid "7a00a726-45b0-489a-964e-9f73e018eeb4")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "D37")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "D32")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 69.85 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d29eaf9f-7bad-4e5e-98f3-78527b046c42")
+		(property "Reference" "D14"
+			(at 69.85 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 69.85 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 69.85 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c993f96d-2966-4cf0-b6ae-f9dc9fb8889b")
+		)
+		(pin "1"
+			(uuid "8f72ef8a-fa9b-43a1-a2a5-f71557189b07")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "D35")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 127 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7b8603b-9e1c-47d4-aff2-afcb9b7605da")
+		(property "Reference" "R196"
+			(at 129.54 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 129.54 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0805"
+			(at 125.222 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25803"
+			(at 127 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "508fbf04-0cc9-4438-9ee9-f1a9c39f5c42")
+		)
+		(pin "2"
+			(uuid "c4fbccce-3c5d-4db7-bbcc-ec7047f266d1")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R236")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R296")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R196")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R276")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R256")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 191.77 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e03309b2-4db7-4ac5-a773-838515275ce7")
+		(property "Reference" "R198"
+			(at 194.31 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${R_COMP1}"
+			(at 194.31 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0805"
+			(at 189.992 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 191.77 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${R_COMP1_PART}"
+			(at 191.77 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfe90c7f-8016-4bfc-ae4e-8f7cbe351fb3")
+		)
+		(pin "2"
+			(uuid "8f266dd1-2695-4b50-ab59-9d1f26109823")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R242")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R302")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R198")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R282")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R262")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5bee38b-953c-4b29-8b43-bf87c92b5573")
+		(property "Reference" "R201"
+			(at 222.25 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${R_FBB}"
+			(at 222.25 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0805"
+			(at 217.932 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${R_FBB_PART}"
+			(at 219.71 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f29d1031-15f5-426d-a85e-97ec8ad886b6")
+		)
+		(pin "2"
+			(uuid "c1d9fb05-8ce6-46a7-a255-db134d0af852")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R246")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R306")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R201")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R286")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R266")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e6e6cff4-3628-4b35-9f48-c0eac954fe1b")
+		(property "Reference" "#PWR038"
+			(at 175.26 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a607ad3d-31fb-4e04-9d50-87795a030f12")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7fcb9da-8164-4606-96e0-2486cd01ee4f")
+		(property "Reference" "R199"
+			(at 222.25 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${R_FBT1}"
+			(at 222.25 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0805"
+			(at 217.932 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "${R_FBT1_PART}"
+			(at 219.71 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2be3205-df9b-4712-a408-d4c5103b1c9c")
+		)
+		(pin "2"
+			(uuid "fc661f97-ad64-4392-aac5-6eecb4683894")
+		)
+		(instances
+			(project "48V EPR Netzteil"
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/09cad4f4-8a9e-4ad0-8afb-bac4bf44c05b"
+					(reference "R244")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/b43b66ee-912d-4a7b-8f6e-511494734e04"
+					(reference "R304")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c6f2124d-20e9-4748-936d-f66620acbefd"
+					(reference "R199")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/cb9acf6d-ff1c-40ed-b6e7-47e1a888787c"
+					(reference "R284")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/ce09e342-f210-4233-aff7-c32a3d46c73d"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/e5465728-8394-40c1-a1ac-938c42f97410"
+					(reference "R264")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,6 @@
+# KiCad autosave
+_autosave-*
+
+# KiCad Backup und History
+.history/
+48V EPR Netzteil-backups/
