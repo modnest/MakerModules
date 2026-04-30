@@ -688,7 +688,7 @@
         "uuid": "f14f82e2-25e1-4c12-aea8-c1114281185d"
       }
     ],
-    "used_designators": "U27,R195,R208,R210,R212,R308-312,C120-123,TH1-2,CN1-2,Q25,Q63-64,#PWR58-59,D39-40",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -729,8 +729,8 @@
       "3,3V Supply"
     ],
     [
-      "6e779c90-c606-41b6-892b-85b5bca3b988",
-      "Supply Connector 3,3V"
+      "b43b66ee-912d-4a7b-8f6e-511494734e04",
+      "2,5V Supply"
     ],
     [
       "cb9acf6d-ff1c-40ed-b6e7-47e1a888787c",
@@ -773,16 +773,16 @@
       "Supply Connector 5V"
     ],
     [
-      "902e25ee-8ba7-4a04-94a4-230950f9ed1e",
-      "Supply Connector 1,8V"
-    ],
-    [
-      "b43b66ee-912d-4a7b-8f6e-511494734e04",
-      "2,5V Supply"
+      "6e779c90-c606-41b6-892b-85b5bca3b988",
+      "Supply Connector 3,3V"
     ],
     [
       "e1629ad7-e6cb-413f-bed4-bc29c6d6ab4a",
       "Supply Connector 2,5V"
+    ],
+    [
+      "902e25ee-8ba7-4a04-94a4-230950f9ed1e",
+      "Supply Connector 1,8V"
     ]
   ],
   "text_variables": {},

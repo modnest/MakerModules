@@ -24,6 +24,18 @@
 		(uuid "5c3f1ff3-c265-4961-9a27-81b54cead543")
 	)
 	(junction
+		(at 52.07 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cd5f8d7-51e3-4b59-a26c-d6c6df920d1e")
+	)
+	(junction
+		(at 52.07 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b2b8cbe-5ec7-46a9-bfe6-aa2c9ed25f81")
+	)
+	(junction
 		(at 237.49 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -80,8 +92,16 @@
 		(uuid "6994c7e8-47a4-4f85-b8f0-8140090be60a")
 	)
 	(no_connect
+		(at 45.72 30.48)
+		(uuid "7988c30f-64ac-4b1f-b99d-3750449265a9")
+	)
+	(no_connect
 		(at 196.85 48.26)
 		(uuid "7aaeec54-b046-41b0-814b-3c88e87a2c63")
+	)
+	(no_connect
+		(at 45.72 27.94)
+		(uuid "b3d762c7-41a3-4d5e-a44a-8dcb22f086e0")
 	)
 	(no_connect
 		(at 224.79 46.99)
@@ -169,6 +189,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 39.37) (xy 52.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104e10a7-752d-445b-99e8-3d87277343b0")
+	)
+	(wire
+		(pts
 			(xy 144.78 140.97) (xy 144.78 146.05)
 		)
 		(stroke
@@ -176,6 +206,16 @@
 			(type default)
 		)
 		(uuid "105689f0-ad0d-4205-99f3-137e44731d06")
+	)
+	(wire
+		(pts
+			(xy 45.72 39.37) (xy 52.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a44f79-5501-44ff-9e5d-757beb558de0")
 	)
 	(wire
 		(pts
@@ -369,6 +409,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 36.83) (xy 58.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0a92de-bbd7-40e1-b0a3-c2c59dffad29")
+	)
+	(wire
+		(pts
 			(xy 142.24 140.97) (xy 142.24 146.05)
 		)
 		(stroke
@@ -446,6 +496,26 @@
 			(type default)
 		)
 		(uuid "46ab7fa9-8e73-475b-bdd5-d49c0db8f86a")
+	)
+	(wire
+		(pts
+			(xy 52.07 46.99) (xy 52.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47899581-5787-4f23-845b-70f68fae9b79")
+	)
+	(wire
+		(pts
+			(xy 52.07 44.45) (xy 52.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c9ebcd-f405-49af-aac8-2c978ffd3f03")
 	)
 	(wire
 		(pts
@@ -639,6 +709,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 46.99) (xy 52.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd5882f-3804-48c1-acb6-0e6029462d56")
+	)
+	(wire
+		(pts
 			(xy 265.43 43.18) (xy 265.43 46.99)
 		)
 		(stroke
@@ -656,6 +736,16 @@
 			(type default)
 		)
 		(uuid "759f0df6-8324-4742-8f06-392bfcc1ccff")
+	)
+	(wire
+		(pts
+			(xy 52.07 40.64) (xy 58.42 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d2185c-0d08-4415-995f-5dca1809195f")
 	)
 	(wire
 		(pts
@@ -746,6 +836,16 @@
 			(type default)
 		)
 		(uuid "815889c5-ce8a-4724-9e3c-2da0d512c747")
+	)
+	(wire
+		(pts
+			(xy 45.72 25.4) (xy 58.42 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81934c97-8490-4dac-bdd7-ab4dfbaf0440")
 	)
 	(wire
 		(pts
@@ -1099,6 +1199,36 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 41.91) (xy 52.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf32855e-a96b-4815-ab3e-e828c5cd690a")
+	)
+	(wire
+		(pts
+			(xy 52.07 45.72) (xy 58.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd28a70-1907-4622-98fc-462c19f5d0ec")
+	)
+	(wire
+		(pts
+			(xy 45.72 41.91) (xy 52.07 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11ae854-1cb4-4c1c-8a92-e9e24113f117")
+	)
+	(wire
+		(pts
 			(xy 144.78 91.44) (xy 144.78 96.52)
 		)
 		(stroke
@@ -1166,6 +1296,16 @@
 			(type default)
 		)
 		(uuid "de42f663-42fa-4034-ac99-dacf682aa7d1")
+	)
+	(wire
+		(pts
+			(xy 45.72 44.45) (xy 52.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0065f0c-ce62-4d29-a65f-b0c3b1454a36")
 	)
 	(wire
 		(pts
@@ -1266,6 +1406,16 @@
 			(type default)
 		)
 		(uuid "eef359e2-fe3a-4805-b51d-97332bca40a5")
+	)
+	(wire
+		(pts
+			(xy 45.72 34.29) (xy 58.42 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09d5b2a-446a-4945-93c5-b603aba35632")
 	)
 	(wire
 		(pts
@@ -1575,7 +1725,7 @@
 		)
 	)
 	(sheet
-		(at 73.66 24.13)
+		(at 58.42 22.86)
 		(size 29.21 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1591,7 +1741,7 @@
 		)
 		(uuid "269f0919-4e81-4452-bfff-484f88ce4ec7")
 		(property "Sheetname" "Power Supply"
-			(at 73.66 23.4184 0)
+			(at 58.42 22.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1602,7 +1752,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_supply.kicad_sch"
-			(at 73.66 50.1146 0)
+			(at 58.42 48.8446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1610,6 +1760,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CC1" input
+			(at 58.42 34.29 180)
+			(uuid "d21b4396-d6d2-4c80-8bbf-81b6a0bf1f2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CC2" input
+			(at 58.42 36.83 180)
+			(uuid "8a8d1ca0-98b2-4dc5-b513-6b9c2889fae9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DN" output
+			(at 58.42 45.72 180)
+			(uuid "71939cb0-309f-4671-9f44-51ba290a92ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DP" output
+			(at 58.42 40.64 180)
+			(uuid "41cd2014-c9de-45c5-8a32-8b5ee42f4a93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_RAW" input
+			(at 58.42 25.4 180)
+			(uuid "de1cb376-7560-4547-b587-6f128342c97e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1656,6 +1856,96 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CC1" input
+			(at 45.72 34.29 0)
+			(uuid "4e9109cb-9e13-420c-976c-521b3b27760d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CC2" input
+			(at 45.72 36.83 0)
+			(uuid "628754a5-e5fc-4d69-bffc-bb2e33a76519")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+(A6)" input
+			(at 45.72 39.37 0)
+			(uuid "cdb326bf-ad2c-42c1-aa8a-3378c15e7cb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+(B6)" input
+			(at 45.72 41.91 0)
+			(uuid "cd89e692-29be-4bec-8205-15e13b95f453")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-(A7)" input
+			(at 45.72 44.45 0)
+			(uuid "44032ff7-235d-4a0d-8de6-f8ff10546bb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-(B7)" input
+			(at 45.72 46.99 0)
+			(uuid "f40598ef-cc97-453d-ab25-6a011d745859")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SBU1" input
+			(at 45.72 30.48 0)
+			(uuid "2dd4cb18-5c3d-4253-957b-fccec4c2c21a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SBU2" input
+			(at 45.72 27.94 0)
+			(uuid "a4de864f-13e6-4627-bc3c-50484c93ea80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_RAW" input
+			(at 45.72 25.4 0)
+			(uuid "dabfb9ab-bedd-4dbd-bd3a-72756f54e6ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2673,7 +2963,7 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d"
-					(page "10")
+					(page "21")
 				)
 			)
 		)
@@ -3065,7 +3355,7 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d"
-					(page "21")
+					(page "23")
 				)
 			)
 		)
@@ -3902,7 +4192,7 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d"
-					(page "22")
+					(page "10")
 				)
 			)
 		)
@@ -5927,7 +6217,7 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d"
-					(page "23")
+					(page "22")
 				)
 			)
 		)

@@ -1,6 +1,9 @@
 # KiCad autosave
 _autosave-*
 
+# KiCad Lockfiles
+*.lck
+
 # KiCad Backup und History
 .history/
 48V EPR Netzteil-backups/
