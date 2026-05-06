@@ -464,7 +464,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -603,18 +603,6 @@
         },
         {
           "group_by": false,
-          "label": "LCSC PArt",
-          "name": "LCSC PArt",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "LCSC PART",
           "name": "LCSC PART",
           "show": false
@@ -629,6 +617,24 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         }
       ],
@@ -688,7 +694,7 @@
         "uuid": "f14f82e2-25e1-4c12-aea8-c1114281185d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "CN2,CN13-21,R313-328,C123-130,#PWR60-67",
     "variants": []
   },
   "sheets": [
@@ -783,6 +789,14 @@
     [
       "902e25ee-8ba7-4a04-94a4-230950f9ed1e",
       "Supply Connector 1,8V"
+    ],
+    [
+      "79c35ddc-2de7-484e-9fd7-606bf49b24eb",
+      "Mainboard"
+    ],
+    [
+      "bd55740b-e645-4f1e-bf81-93b1b7b2fa12",
+      "Auxillary Power"
     ]
   ],
   "text_variables": {},
