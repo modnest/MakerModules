@@ -1,0 +1,126 @@
+
+**** 10/01/24 13:47:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM70XX0-Q1 Test Bench-test"  [ C:\Users\a0489470\Desktop\Projects\Applications\Converters\LM70xx0-Q1 (Hercules 4A,6A,8A
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lm70xx0-q1.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+
+*Analysis directives: 
+.TRAN  0 3.5m 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.OPTIONS SPEED_LEVEL= 5
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\LM70XX0-Q1 Test Bench.net" 
+
+
+
+**** INCLUDING "LM70XX0-Q1 Test Bench.net" ****
+* source LM70XX0-Q1_TRANS
+R_R12         VDDA N16778820  100k TC=0,0 
+R_Rload         VOUT 0  {VOUT/IOUT} TC=0,0 
+L_L1         SW ISNS+  3.3u IC=0 
+C_C1         N16775823 SW  200n IC=0 TC=0,0 
+R_R7         VDDA N16776207  100k TC=0,0 
+C_C2         VOUT 0  47u IC=0 TC=0,0 
+C_C16         VOUT 0  47u IC=0 TC=0,0 
+R_R1         0 N16778984  54.9k TC=0,0 
+C_C3         VCC 0  4.7u IC=0 TC=0,0 
+R_R3         ISNS+ VOUT  4m TC=0,0 
+C_C15         VOUT 0  47u IC=0 TC=0,0 
+C_C17         VOUT 0  47u IC=0 TC=0,0 
+V_V1         VIN 0 {VIN}
+R_R20         VDDA FB  24.9k TC=0,0 
+X_U1         N16776207 N16778820 SW 0 CNFG 0 VDDA VCC VIN N16775823 VIN
++  N16778984 VOUT FB VDDA ISNS+ LM70XX0-Q1
+.PARAM  iout=8 vin=12 steady_state=0 vout=5
+
+**** RESUMING test.cir ****
+.END
+
+INFO(ORPSIM-16627): The following imported models were detected in the design: D_BODY(lm70xx0-q1.lib), D_D1(lm70xx0-q1.lib), X_U1.D_200M(lm70xx0-q1.lib), X_U1.D_700M(lm70xx0-q1.lib), X_U1.D_IDEAL(lm70xx0-q1.lib), X_U1.X_U3_U25.d_d1(lm70xx0-q1.lib), X_U1.X_U4_U15.d_d1(lm70xx0-q1.lib), X_U1.X_U4_U715.d_d1(lm70xx0-q1.lib), X_U1.X_U5_U20.d_d1(lm70xx0-q1.lib), X_U1.X_U5_U843.d_d1(lm70xx0-q1.lib), X_U1.X_U7_U34.d_d1(lm70xx0-q1.lib), X_U1.X_U7_U35.d_d1(lm70xx0-q1.lib), X_U1.X_U7_U38.d_d1(lm70xx0-q1.lib), X_U1.X_U7_U39.d_d1(lm70xx0-q1.lib), X_U1.X_U7_U7.d_d1(lm70xx0-q1.lib), X_U1.X_U8_U34.d_d1(lm70xx0-q1.lib), X_U1.X_U8_U35.d_d1(lm70xx0-q1.lib)
+
+ERROR(ORPSIM-16583): More than one imported model containing transistors or diodes is detected. To simulate this circuit, a minimum of 1 and a maximum of 4 traces are required. Reduce the number of traces and simulate again.
+
+
+ABORTING SIMULATION
+**** 10/01/24 13:47:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM70XX0-Q1 Test Bench-test"  [ C:\Users\a0489470\Desktop\Projects\Applications\Converters\LM70xx0-Q1 (Hercules 4A,6A,8A
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =          12
+  External (NCNODS)                 =         477
+  Total (NUMNOD)                    =         513
+
+Total device count (NUMEL)          =          15
+  Capacitors (C)                    =           6
+  Diodes (D)                        =           0
+  VCVS (E)                          =           0
+  CCCS (F)                          =           0
+  VCCS (G)                          =           0
+  CCVS (H)                          =           0
+  Current Sources (I)               =           0
+  Inductors (L)                     =           1
+  Resistors (R)                     =           6
+  VSwitches (S)                     =           0
+  Voltage Sources (V)               =           1
+
+Number of subcircuits (X)           =           1
+
+Matrix statistics:
+  Matrix size (NSTOP)               =         777
+  Initial no. elements (NTTAR)      =        1982
+  No. elements w/ fillin (NTTBR)    =        1982
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =      99.672
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Readin                            =        1.00
+  General setup                     =        2.78
+  CMI setup                     =        0.00
+  Setup                             =         .03
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .06
+  Total job time (using Solver 1)   =        4.11
+

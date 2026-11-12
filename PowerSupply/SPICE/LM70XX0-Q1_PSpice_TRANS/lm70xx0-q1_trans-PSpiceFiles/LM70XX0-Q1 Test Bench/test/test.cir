@@ -1,0 +1,22 @@
+** Profile: "LM70XX0-Q1 Test Bench-test"  [ C:\Users\a0489470\Desktop\Projects\Applications\Converters\LM70xx0-Q1 (Hercules 4A,6A,8A,10A)\PSPICE\LM70XX0-Q1_PSpice_TRANS\lm70xx0-q1_trans-pspicefiles\lm70xx0-q1 test bench\test.sim ] 
+
+** Creating circuit file "test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lm70xx0-q1.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+
+*Analysis directives: 
+.TRAN  0 3.5m 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.OPTIONS SPEED_LEVEL= 5
+.PROBE64 N([SW])
+.INC "..\LM70XX0-Q1 Test Bench.net" 
+
+
+.END

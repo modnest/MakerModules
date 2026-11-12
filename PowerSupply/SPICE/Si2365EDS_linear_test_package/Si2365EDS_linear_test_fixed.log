@@ -1,0 +1,61 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\jan\Downloads\Si2365EDS_linear_test_package\Si2365EDS_linear_test_fixed.net
+Start Time: Thu Oct  1 21:24:10 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Instance "q1:x1:M1": Length shorter than recommended for a level 3 MOSFET.
+Instance "q1:x1:M2": Length shorter than recommended for a level 3 MOSFET.
+.step vbuck=1.8
+.step vbuck=1.825
+.step vbuck=1.85
+.step vbuck=1.875
+.step vbuck=1.9
+.step vbuck=1.925
+.step vbuck=1.95
+.step vbuck=1.975
+.step vbuck=2
+Total elapsed time: 0.639 seconds.
+
+Files loaded:
+C:\Users\jan\Downloads\Si2365EDS_linear_test_package\Si2365EDS_linear_test_fixed.net
+C:\Users\jan\Downloads\Si2365EDS_linear_test_package\Si2365EDS_PS_Rev_A.LIB
+
+
+Measurement: vgs_at_target
+  step	V(vg)-V(vbuck) 	at
+     1	failed	0
+     2	failed	0
+     3	-1.85565561706	-0.00565559322034
+     4	-1.44338351044	0.431616484848
+     5	-1.27278080701	0.627219184652
+     6	-1.18324031205	0.74175965338
+     7	-1.13065723239	0.819342813984
+     8	-1.09800067405	0.876999375532
+     9	-1.07730797859	0.922692039381
+
+Measurement: vg_at_target
+  step	V(vg)          	at
+     1	failed	0
+     2	failed	0
+     3	-0.00565559321604	-0.00565559322034
+     4	0.431616489562	0.431616484848
+     5	0.627219169146	0.627219184652
+     6	0.741759640261	0.74175965338
+     7	0.819342815292	0.819342813984
+     8	0.876999349791	0.876999375532
+     9	0.922692021412	0.922692039381
+
+Measurement: iout_check
+  step	I(RLOAD)       	at
+     1	failed	0
+     2	failed	0
+     3	0.999999962985	-0.00565559322034
+     4	0.99999995827	0.431616484848
+     5	0.999999991109	0.627219184652
+     6	1.00000003286	0.74175965338
+     7	1.00000003028	0.819342813984
+     8	0.999999993381	0.876999375532
+     9	0.999999960264	0.922692039381

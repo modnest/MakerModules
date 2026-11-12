@@ -1,0 +1,207 @@
+(ExpressProject "LM25149-Q1_TRANS"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1-2024 S001-[10/01/24]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\generic_blocks.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\generic_blocks.olb"))
+      (File ".\generic_library.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\generic_library.olb"))
+      (File ".\mosfet.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\mosfet.olb"))
+      (File ".\lm70xx0-q1.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\lm70xx0-q1.olb")))
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\lm70xx0-q1_trans.DSN"
+      (Type "Schematic Design")
+      (DisplayName ".\lm70xx0-q1_trans.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (Display_Online_DRC_Results "FALSE")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Netlist_TAB "3")
+    (PSPICE_Output_File
+       "C:\Users\a0232848\Desktop\PSPICE\lm5149-q1-master@8b96ff6d7ba\LM5149-Q1_PSPICE_TRANS\LM5149-Q1_trans2.lib")
+    (PSPICE_View_Output "FALSE")
+    (PSPICE_Subcircuit_Format "TRUE")
+    (PSPICE_Do_DRC_Markers "FALSE")
+    (PSPICE_Net_Name_Pref "TRUE")
+    (PSPICE_Hier_Format "FALSE")
+    (PSPICE_Hier_Descend "TRUE")
+    (PSPICE_Hier_DoNot_Descend "FALSE")
+    (PSPICE_Alt_Template "PSpiceTemplate"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File
+       ".\lm70xx0-q1_trans-pspicefiles\lm70xx0-q1 test bench\lm70xx0-q1 test bench.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lm70xx0-q1_trans-pspicefiles\lm70xx0-q1 test bench\test.sim"
+        (DisplayName "LM70XX0-Q1 Test Bench-test")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\lm70xx0-q1_trans-pspicefiles\lm70xx0-q1 test bench\test.sim"))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\lm70xx0-q1.lib"
+        (Type "Unknown")
+        (DisplayName ".\lm70xx0-q1.lib"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (LM70XX0-Q1
+      (FullPartName "LM70XX0-Q1.Normal")
+      (LibraryName
+         "C:\USERS\A0489470\DESKTOP\PROJECTS\APPLICATIONS\CONVERTERS\LM70XX0-Q1 (HERCULES 4A,6A,8A,10A)\PSPICE\LM70XX0-Q1_PSPICE_DEV\LM70XX0-Q1.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (LM70880
+      (FullPartName "LM70880.Normal")
+      (LibraryName
+         "C:\USERS\A0498185\DESKTOP\PROJECTS\HERCULES\PSPICE DEV\LM70880.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_10.0\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (IPULSE
+      (FullPartName "IPULSE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (ABM2
+      (FullPartName "ABM2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (INV_BASIC_GEN
+      (FullPartName "INV_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\PSPICE_SUBBLK_LIB_WS\PSPICE_SUBBLK_LIB_DS\PSPICE_SUBBLK_LIB\SB02_SUBBLOCKBASIC\SB0101_LOGIC\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (D_IDEAL
+      (FullPartName "D_IDEAL.Normal")
+      (LibraryName
+         "C:\BSR_PROJECTS\PART_NUMBERS\LM25149-Q1\EXPERIMENTS\PSPICE\GENERIC_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (AND3_BASIC_GEN
+      (FullPartName "AND3_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\PSPICE_SUBBLK_LIB_WS\PSPICE_SUBBLK_LIB_DS\PSPICE_SUBBLK_LIB\SB02_SUBBLOCKBASIC\SB0101_LOGIC\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (ABM1
+      (FullPartName "ABM1.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (ONE_SHOT
+      (FullPartName "ONE_SHOT.Normal")
+      (LibraryName
+         "C:\BSR_PROJECTS\PART_NUMBERS\LM25149-Q1\EXPERIMENTS\PSPICE\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (BUF_BASIC_GEN
+      (FullPartName "BUF_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\BSR_PROJECTS\PART_NUMBERS\LM25149-Q1\EXPERIMENTS\PSPICE\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (GVALUE
+      (FullPartName "GVALUE.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (COMP_BASIC_GEN
+      (FullPartName "COMP_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\PSPICE_SUBBLK_LIB_WS\PSPICE_SUBBLK_LIB_DS\PSPICE_SUBBLK_LIB\SB02_SUBBLOCKBASIC\SB0102_COMPARATORS\COMPARATOR_GEN.OLB")
+      (DeviceIndex "0"))
+    (OR3_BASIC_GEN
+      (FullPartName "OR3_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\BSR_PROJECTS\PART_NUMBERS\LM25149-Q1\EXPERIMENTS\PSPICE\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (EVALUE
+      (FullPartName "EVALUE.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (H
+      (FullPartName "H.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (OR2_BASIC_GEN
+      (FullPartName "OR2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\BSR_PROJECTS\PART_NUMBERS\LM25149-Q1\EXPERIMENTS\PSPICE\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (NOR2_BASIC_GEN
+      (FullPartName "NOR2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\USERS\X0189042\DESKTOP\LM43603\ACTIVE_WORK_SANKALP\EXPERIMENTS\PSPICE\LM43603_PSPICE_TRANS\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (AND2_BASIC_GEN
+      (FullPartName "AND2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\PSPICE_SUBBLK_LIB_WS\PSPICE_SUBBLK_LIB_DS\PSPICE_SUBBLK_LIB\SB02_SUBBLOCKBASIC\SB0101_LOGIC\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (SRLATCHRHP_BASIC_GEN
+      (FullPartName "SRLATCHRHP_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\BSR_PROJECTS\PART_NUMBERS\LM25149-Q1\EXPERIMENTS\PSPICE\GENERIC_BLOCKS.OLB")
+      (DeviceIndex "0"))
+    (IC1
+      (FullPartName "IC1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\a0489470\Desktop\Projects\Applications\Converters\LM70xx0-Q1 (Hercules 4A,6A,8A,10A)\PSPICE\LM70XX0-Q1_PSpice_TRANS\lm70xx0-q1_trans.DSN")
+      (Path "Design Resources"
+         "C:\Users\a0489470\Desktop\Projects\Applications\Converters\LM70xx0-Q1 (Hercules 4A,6A,8A,10A)\PSPICE\LM70XX0-Q1_PSpice_TRANS\lm70xx0-q1_trans.DSN"
+         "LM70XX0-Q1 Test Bench")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources"
+         "C:\Users\a0489470\Desktop\Projects\Applications\Converters\LM70xx0-Q1 (Hercules 4A,6A,8A,10A)\PSPICE\LM70XX0-Q1_PSpice_TRANS\lm70xx0-q1_trans.DSN"
+         "LM70XX0-Q1 Test Bench"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 917"))
+      (Tab 0)))
+  (MPSSessionName "a0489470")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_17.4\tools\capture\library\pspice\PWL")
+  (ISPCBBASICLICENSE "false"))
