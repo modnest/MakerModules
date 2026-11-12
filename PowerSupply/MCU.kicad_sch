@@ -5,6 +5,46 @@
 	(uuid "59df4f0d-32dd-4d4c-ad9f-d13ddffa5c9f")
 	(paper "A3")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 59.69 36.83) (xy 87.63 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2a5741-9f72-4048-8e17-6ce0a26108a6")
+	)
+	(wire
+		(pts
+			(xy 59.69 33.02) (xy 87.63 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8bfcd2-1a56-4b7d-bc2a-68694ee3ede6")
+	)
+	(wire
+		(pts
+			(xy 59.69 44.45) (xy 87.63 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f40823-9409-4a36-aba7-50c82ce2181d")
+	)
+	(wire
+		(pts
+			(xy 59.69 29.21) (xy 87.63 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f287199f-d785-473f-8be3-6ee8dfbea178")
+	)
 	(sheet
 		(at 25.4 25.4)
 		(size 34.29 46.99)
@@ -43,16 +83,66 @@
 				(justify left top)
 			)
 		)
+		(pin "3V3_PGOOD" output
+			(at 59.69 29.21 0)
+			(uuid "e239978b-a2df-418d-9450-486470ce1e09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_MOD_DATA" bidirectional
+			(at 59.69 33.02 0)
+			(uuid "de849a41-16e7-4500-95e1-a93339853209")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" output
+			(at 59.69 36.83 0)
+			(uuid "96d1ca89-d032-4f86-ae9f-a72dd48c7741")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V" output
+			(at 59.69 40.64 0)
+			(uuid "195c6701-0b5d-4cd6-a7f4-2a401d5c34a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PD_MOD_DATA" bidirectional
+			(at 59.69 44.45 0)
+			(uuid "ca5fdbe8-f318-47c4-9494-5cbbd38a888e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c850486a-a9d4-4f2d-850d-c16e77cb5d75"
-					(page "24")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 82.55 25.4)
+		(at 87.63 25.4)
 		(size 39.37 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -67,8 +157,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "bd55740b-e645-4f1e-bf81-93b1b7b2fa12")
-		(property "Sheetname" "Auxillary Power"
-			(at 82.55 24.6884 0)
+		(property "Sheetname" "MCU"
+			(at 87.63 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +169,7 @@
 			)
 		)
 		(property "Sheetfile" "AuxPower.kicad_sch"
-			(at 82.55 72.9746 0)
+			(at 87.63 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -89,10 +179,50 @@
 				(justify left top)
 			)
 		)
+		(pin "NRST" input
+			(at 87.63 29.21 180)
+			(uuid "71208e57-4c67-43fb-b7ab-01d282a7ba00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vdd" input
+			(at 87.63 36.83 180)
+			(uuid "00613114-5702-4540-8018-686233412e10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_DATA" bidirectional
+			(at 87.63 33.02 180)
+			(uuid "a50ee988-4704-409f-9492-03f4ce180e1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_PD_DATA" bidirectional
+			(at 87.63 44.45 180)
+			(uuid "5dc4e0b0-9630-4d6b-8ee0-2bbf83b8d147")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/c850486a-a9d4-4f2d-850d-c16e77cb5d75"
-					(page "25")
+					(page "5")
 				)
 			)
 		)

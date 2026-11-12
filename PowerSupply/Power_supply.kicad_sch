@@ -3670,7 +3670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d0ebd82-409d-4a53-b9a3-18ecbbbaedee")
-		(property "Reference" "U27"
+		(property "Reference" "U601"
 			(at 127 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3745,8 +3745,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C24374260"
-			(at 127 124.46 0)
+		(property "LCSC Part" "C50341643"
+			(at 127 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3834,8 +3834,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "U27")
+					(reference "U601")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -3852,7 +3855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "157ebd96-46d1-4c58-a3ba-dd70d4fc6b56")
-		(property "Reference" "CN1"
+		(property "Reference" "CN601"
 			(at 46.99 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3906,7 +3909,7 @@
 			)
 		)
 		(property "LCSC Part" "C52269369"
-			(at 38.1 73.66 0)
+			(at 38.1 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3979,8 +3982,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "CN1")
+					(reference "CN601")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -3997,7 +4003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d1203a8-5897-41e1-82c3-46aecd8a116e")
-		(property "Reference" "C122"
+		(property "Reference" "C603"
 			(at 207.01 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4008,7 +4014,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µ"
+		(property "Value" "1µF"
 			(at 207.01 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4019,7 +4025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:C0603"
 			(at 204.1652 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4052,6 +4058,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C15849"
+			(at 203.2 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a4e8962b-036e-40e3-b789-c6e61874a3ac")
 		)
@@ -4061,8 +4078,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "C122")
+					(reference "C603")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -4079,7 +4099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "231ca897-1d1b-436d-9d98-4e1657ea976f")
-		(property "Reference" "C121"
+		(property "Reference" "C602"
 			(at 172.72 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4090,7 +4110,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 172.72 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4101,7 +4121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:C0603"
 			(at 169.8752 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4134,6 +4154,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14663"
+			(at 168.91 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a4e8962b-036e-40e3-b789-c6e61874a3ad")
 		)
@@ -4143,8 +4174,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "C121")
+					(reference "C602")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -4161,7 +4195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fbf6b0f-1ffa-43e8-9461-9d96e5d67e3f")
-		(property "Reference" "Q25"
+		(property "Reference" "Q601"
 			(at 153.67 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4214,6 +4248,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 153.67 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "76ccbae8-fcfa-4931-9f5d-86934feac24b")
 		)
@@ -4226,8 +4271,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "Q25")
+					(reference "Q601")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -4244,7 +4292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3500455c-77e1-49d6-9ad3-19d317a821fb")
-		(property "Reference" "R208"
+		(property "Reference" "R602"
 			(at 100.33 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4266,7 +4314,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:R0402"
 			(at 99.568 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -4299,6 +4347,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25804 "
+			(at 97.79 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9f915b30-5c78-441a-893f-73f8897c9c44")
 		)
@@ -4308,8 +4367,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "R208")
+					(reference "R602")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -4326,7 +4388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cf9625e-e719-47ff-9b14-2dc5f7533c70")
-		(property "Reference" "R195"
+		(property "Reference" "R601"
 			(at 90.17 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4348,7 +4410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:R0402"
 			(at 89.408 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -4381,6 +4443,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25804 "
+			(at 87.63 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "197fc768-c5b2-4080-a176-4224e58dbfb1")
 		)
@@ -4390,8 +4463,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "R195")
+					(reference "R601")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -4408,7 +4484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5867cf61-9f2d-4cf1-9fe2-d51b61b739f5")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0601"
 			(at 135.89 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4468,7 +4544,7 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "#PWR059")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -4486,7 +4562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59373072-b746-4ec6-96e5-feb96034b378")
-		(property "Reference" "R308"
+		(property "Reference" "R607"
 			(at 181.61 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4541,6 +4617,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c3561f83-b714-4fc9-a6ba-c27e0e8a4ae5")
 		)
@@ -4550,8 +4637,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "R308")
+					(reference "R607")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -4568,7 +4658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6135d8b5-1280-40a1-935c-5197509c05ea")
-		(property "Reference" "R210"
+		(property "Reference" "R608"
 			(at 182.88 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4590,7 +4680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:R0402"
 			(at 178.562 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -4623,6 +4713,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25905"
+			(at 180.34 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c3561f83-b714-4fc9-a6ba-c27e0e8a4ae6")
 		)
@@ -4632,8 +4733,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "R210")
+					(reference "R608")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -4650,7 +4754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "856bad6a-c6a7-430a-a935-a4ce1dc40864")
-		(property "Reference" "R310"
+		(property "Reference" "R603"
 			(at 100.33 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4670,7 +4774,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:R0402"
 			(at 100.33 98.298 90)
 			(hide yes)
 			(show_name no)
@@ -4703,6 +4807,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C11702"
+			(at 100.33 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e1e86ff5-5c0c-4f93-9e5b-b13c19db029d")
 		)
@@ -4712,8 +4827,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "R310")
+					(reference "R603")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -4730,7 +4848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97523649-830c-4ece-adae-9c11685dcbed")
-		(property "Reference" "D39"
+		(property "Reference" "D601"
 			(at 90.17 114.6174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4752,7 +4870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:LED0805-RD"
 			(at 86.36 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4796,6 +4914,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C84256"
+			(at 86.36 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8b87a2f1-f5c0-466c-ad27-4e91e362256d")
 		)
@@ -4805,8 +4934,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "D39")
+					(reference "D601")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -4823,7 +4955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98f08fcd-e25d-467a-a05a-f313812b2903")
-		(property "Reference" "R309"
+		(property "Reference" "R604"
 			(at 127 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4843,7 +4975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:R0603"
 			(at 127 53.848 90)
 			(hide yes)
 			(show_name no)
@@ -4876,6 +5008,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2912774"
+			(at 127 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0cc80617-4eac-414e-9c1e-1fba5dfcbdc1")
 		)
@@ -4885,8 +5028,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "R309")
+					(reference "R604")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -4903,7 +5049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c01c906-71d6-4cf9-a616-3eec15c41382")
-		(property "Reference" "C120"
+		(property "Reference" "C601"
 			(at 100.33 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4914,7 +5060,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 100.33 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4925,7 +5071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:C0603"
 			(at 97.4852 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4958,6 +5104,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14663"
+			(at 96.52 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a4e8962b-036e-40e3-b789-c6e61874a3ae")
 		)
@@ -4967,8 +5124,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "C120")
+					(reference "C601")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -4985,7 +5145,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af074c4b-c7d6-4f4c-a7dd-36704bae407f")
-		(property "Reference" "Q63"
+		(property "Reference" "Q602"
 			(at 167.64 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5038,6 +5198,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 167.64 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "76ccbae8-fcfa-4931-9f5d-86934feac24c")
 		)
@@ -5050,8 +5221,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "Q63")
+					(reference "Q602")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -5068,7 +5242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0dcc558-7308-47d9-b5af-19528dfa800f")
-		(property "Reference" "TH1"
+		(property "Reference" "TH601"
 			(at 151.13 114.6174 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5123,6 +5297,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 148.59 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "579688c7-9612-47f4-b3e6-5e1ba9daa2c3")
 		)
@@ -5132,8 +5317,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "TH1")
+					(reference "TH601")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -5150,7 +5338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5d7cf22-c5da-4dfb-b736-4a80ae858ff7")
-		(property "Reference" "R312"
+		(property "Reference" "R606"
 			(at 170.18 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5172,7 +5360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:R0402"
 			(at 165.862 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -5205,6 +5393,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25076"
+			(at 167.64 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "df3bdfba-af56-4c38-bb91-ac1895887d74")
 		)
@@ -5214,8 +5413,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "R312")
+					(reference "R606")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -5232,7 +5434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dda45460-89fe-4d13-98c0-5747f3784a86")
-		(property "Reference" "R212"
+		(property "Reference" "R609"
 			(at 193.04 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5254,7 +5456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:R0402"
 			(at 188.722 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -5287,6 +5489,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25905"
+			(at 190.5 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c3561f83-b714-4fc9-a6ba-c27e0e8a4ae7")
 		)
@@ -5296,8 +5509,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "R212")
+					(reference "R609")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
@@ -5314,7 +5530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb94c11d-93df-4e30-8331-ea25454d3de0")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0602"
 			(at 148.59 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5374,7 +5590,7 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "#PWR058")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -5392,7 +5608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f452630e-5291-4254-ae16-3e00e303be29")
-		(property "Reference" "R311"
+		(property "Reference" "R605"
 			(at 156.21 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5414,7 +5630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:R0402"
 			(at 151.892 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -5447,6 +5663,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25076"
+			(at 153.67 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "30f53197-80db-4fb8-ae32-f43863f037df")
 		)
@@ -5456,8 +5683,11 @@
 		(instances
 			(project "48V EPR Netzteil"
 				(path "/f14f82e2-25e1-4c12-aea8-c1114281185d/269f0919-4e81-4452-bfff-484f88ce4ec7"
-					(reference "R311")
+					(reference "R605")
 					(unit 1)
+					(variant
+						(name "Komplettgerät")
+					)
 				)
 			)
 		)
